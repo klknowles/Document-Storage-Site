@@ -1,8 +1,8 @@
 <?php
 $DATABASE_HOST = '127.0.0.1';
-$DATABASE_USER = 'root'; 
-$DATABASE_PASS = 'knowles1970'; 
-$DATABASE_NAME = 'fakedb';
+$DATABASE_USER = ''; 
+$DATABASE_PASS = ''; 
+$DATABASE_NAME = '';
 // The following code trys to connect using the information above
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if ( mysqli_connect_errno() ) {
